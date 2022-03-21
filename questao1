@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+float fun (){
+
+printf ("digite o valor em metros que deseja ver convertido: ");
+float m;
+scanf("%f", &m);
+if (m < 0 ){
+  printf("\n\n\n");
+  printf("Número inválido, por favor use um valor numérico adequado para esse tipo de equação");
+  printf("\n\n\n");
+  fun ();
+}
+ return m;
+}
+
+
+int main () {
+float m, cm, dm, mm;
+printf("====Conversor de medidas====");
+printf("\n\n\n");
+m = fun();
+printf("\n\n\n");
+printf("%3.2f metro(s) = %3.2f centímetro(s) = %3.2f decímetro(s)  = %3.2f milímetro(s)",
+       m,
+       cm = m * 100,
+       dm = m * 10,
+       mm = m * 1000
+       );
+
+
+return 0;
+}
