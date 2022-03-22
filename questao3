@@ -1,0 +1,34 @@
+
+#include <stdio.h>
+
+int main (){
+int  a, b;
+
+printf("Digite um número: ");
+scanf("%d",&a);
+printf("\n");
+printf("Digite um número: ");
+scanf("%d",&b);
+printf("\n");
+
+if (a < b ){
+ for (a; a <= b; a++ ){
+    printf("%d", a);
+    printf("\n");
+ }
+
+ }else if (a > b){
+  for (a; a >= b; a-- ){
+    printf("%d", a);
+    printf("\n");
+ }
+
+ }else{
+     printf("Valores iguais");
+
+    }
+
+
+return
+ 0;
+}
