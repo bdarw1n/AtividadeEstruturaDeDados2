@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+float num, inflacao;
+printf (" Digite o valor do produto ");
+scanf("%f", &num);
+if (num < 100.00){
+   printf (" o valor do produto com ajuste de '10%' da inflação é %4.2f", inflacao = num/10 + num);
+} else {
+ printf (" o valor do produto com ajuste de '20%' da inflação é %4.2f", inflacao = num/5 + num);
+}
+
+return 0;
+
+}
