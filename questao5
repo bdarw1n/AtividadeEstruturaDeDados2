@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+
+int main (){
+
+float nota1, nota2, media;
+
+printf("nota 1: "); scanf("%f",&nota1);printf("\n");
+if (nota1 == 50){ return 0;}
+printf("nota 2: "); scanf("%f",&nota2);printf("\n");
+printf("Média: %2.2f",  media =  (nota1 + nota2)/2);("\n");
+printf("\n\n\n");
+main ();
+
+}
+
+
+
